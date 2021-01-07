@@ -1,3 +1,8 @@
+'''
+<< SDK Cleaner by rdbo >>
+https://github.com/rdbo/valve-sdk-cleaner
+'''
+
 import os
 import platform
 
