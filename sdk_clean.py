@@ -24,7 +24,7 @@ def main():
 	file_list = get_file_list(sdk_folder)
 	print("[*] Cleaning SDK up ...")
 	for file in file_list:
-		if not (file.endswith(".py") or file.endswith(".h") or file.endswith(".hpp")):
+		if not (file.endswith(__file__) or file.endswith(".h") or file.endswith(".hpp")):
 			os.remove(file)
 
 	print("[*] The SDK has been successfully cleaned up")
